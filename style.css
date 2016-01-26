@@ -1,0 +1,38 @@
+@font-face{font-family: Amatic; src: url("fonts/Amatic/Amatic-Bold.ttf");}
+@font-face{font-family: Roboto; src: url("fonts/Roboto/Roboto-Regular.ttf");}
+@font-face{font-family: AmaticRegular; src: url("fonts/Amatic/AmaticSC-Regular.ttf");}
+
+html { 
+  background: url(comingsoon.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{text-align:center;}
+
+/* General links parameters */
+a { color: #0DC3A0; opacity:0.9; font-family: Roboto,'Source Sans Pro', sans-serif; border-bottom: 0px none; text-decoration:none; }
+a:active { color: #0DC3A0; opacity:0.9; border-bottom: 2px solid #fff; }
+a:hover { color: #0DC3A0; opacity:1; border-bottom: 0px none;  }
+a:visited { color: #0DC3A0; opacity:0.9; font-family: Roboto,'Source Sans Pro', sans-serif; border-bottom: 0px none; text-decoration:none;} 
+
+
+#header {position:absolute;}
+
+h1 {font-family: Amatic,'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	font-size:100px;
+	color: white;}
+	
+h2 {font-family: AmaticRegular,'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	font-size:40px;
+	color: white;}
+	
+.content {font-family:Roboto,'Source Sans Pro', sans-serif; color:white; width:30%;height:auto;margin:auto;}
+	
+	
+	
+a img{height:50px; width:auto;float:right;margin-left:5px;}
