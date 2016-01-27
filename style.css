@@ -3,14 +3,15 @@
 @font-face{font-family: AmaticRegular; src: url("fonts/Amatic/AmaticSC-Regular.ttf");}
 
 html { 
-  background: url(comingsoon.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  
 }
 
-body{text-align:center;}
+body{text-align:center;
+	background: url(comingsoon.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;}
 
 /* General links parameters */
 a { color: #0DC3A0; opacity:0.9; font-family: Roboto,'Source Sans Pro', sans-serif; border-bottom: 0px none; text-decoration:none; }
