@@ -65,8 +65,6 @@ a img{height:50px; width:auto;float:right;margin-left:5px;}
   body{height:100%; overflow: scroll; -webkit-overflow-scrolling: touch; }
   .content {width:80%;}
   #mc_embed_signup {width:80%;}
-  #mc_embed_signup .button {width:80%;}
-  
-  
+  #mc_embed_signup .button {width:80%;} 
 }
 
