@@ -2,25 +2,27 @@
 @font-face{font-family: Roboto; src: url("fonts/Roboto/Roboto-Regular.ttf");}
 @font-face{font-family: AmaticRegular; src: url("fonts/Amatic/AmaticSC-Regular.ttf");}
 
+
 html { 
-background-color:#56191e;
-  
+  background: no-repeat center center fixed; 
+  background-image : url(comingsoon.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:#56191e;
 }
 
-body{text-align:center;
-	background: url(comingsoon.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;}
-
 @media only screen and (max-width: 767px) {
-  body {
+  html {
     background-image: url(comingsoonmobile.jpg);
   }
 }
+
+body{text-align:center;
+}
+
+
 /* General links parameters */
 a { color: #0DC3A0; opacity:0.9; font-family: Roboto,'Source Sans Pro', sans-serif; border-bottom: 0px none; text-decoration:none; }
 a:active { color: #0DC3A0; opacity:0.9; border-bottom: 2px solid #fff; }
