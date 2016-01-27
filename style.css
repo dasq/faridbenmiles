@@ -21,18 +21,12 @@ html {
   html {
     background-image: url(comingsoonmobile.jpg);
   }
-}
-@media only screen and (max-width: 1024px) {
-  html {
-    background-image: url(comingsoonmobile.jpg);
-  }
+  body{height:100%; overflow: scroll; -webkit-overflow-scrolling: touch; }
   .content {width:100%; margin:none;}
 }
 
+
 body{text-align:center;
-height:100%;
-overflow: scroll;
--webkit-overflow-scrolling: touch;
 }
 
 
