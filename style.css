@@ -17,15 +17,6 @@ html {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 767px) {
-  html {
-    background-image: url(comingsoonmobile.jpg);
-  }
-  body{height:100%; overflow: scroll; -webkit-overflow-scrolling: touch; }
-  .content {width:100%; margin:none;}
-}
-
-
 body{text-align:center;
 }
 
@@ -56,6 +47,13 @@ h2 {font-family: AmaticRegular,'Source Sans Pro', sans-serif;
 	
 a img{height:50px; width:auto;float:right;margin-left:5px;}
 
+@media only screen and (max-device-width: 767px) {
+  html {
+    background-image: url(comingsoonmobile.jpg);
+  }
+  body{height:100%; overflow: scroll; -webkit-overflow-scrolling: touch; }
+  .content {width:80%;}
+}
 
 /* MailChimp Form */
 #mc_embed_signup {display:block;width:30%;margin:20px auto;}
