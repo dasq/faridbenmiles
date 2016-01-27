@@ -9,7 +9,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover !important;
-  /*background-color:#56191e;*/
+  background-color:#56191e;
   background-attachment:fixed !important;
   background-position: center center !important;
   background-repeat: no-repeat !important; 
