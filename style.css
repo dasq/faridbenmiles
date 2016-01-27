@@ -3,6 +3,7 @@
 @font-face{font-family: AmaticRegular; src: url("fonts/Amatic/AmaticSC-Regular.ttf");}
 
 html { 
+background-color:#56191e;
   
 }
 
@@ -11,8 +12,16 @@ body{text-align:center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;}
+	background-size: cover;
+	background-attachment: fixed;}
 
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(comingsoonmobile.jpg);
+  }
+}
 /* General links parameters */
 a { color: #0DC3A0; opacity:0.9; font-family: Roboto,'Source Sans Pro', sans-serif; border-bottom: 0px none; text-decoration:none; }
 a:active { color: #0DC3A0; opacity:0.9; border-bottom: 2px solid #fff; }
