@@ -13,6 +13,8 @@ html {
   background-attachment:fixed !important;
   background-position: center center !important;
   background-repeat: no-repeat !important; 
+  height: 100%;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 767px) {
@@ -28,6 +30,9 @@ html {
 }
 
 body{text-align:center;
+height:100%;
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 
