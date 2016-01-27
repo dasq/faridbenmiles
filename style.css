@@ -14,10 +14,10 @@ html {
   background-position: center center !important;
   background-repeat: no-repeat !important; 
   height: 100%;
+  overflow:auto;
 }
 
-body{text-align:center; 
-}
+body{text-align:center; }
 
 
 /* General links parameters */
