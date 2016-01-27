@@ -13,12 +13,11 @@ body{text-align:center;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;}
+	background-attachment: fixed;
+	background-repeat: no-repeat;}
 
 @media only screen and (max-width: 767px) {
   body {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
     background-image: url(comingsoonmobile.jpg);
   }
 }
