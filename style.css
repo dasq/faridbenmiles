@@ -4,16 +4,24 @@
 
 
 html { 
-  background: no-repeat center center fixed; 
   background-image : url(comingsoon.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color:#56191e;
   background-attachment:fixed;
+  background-position: center center;
+  background-repeat: no-repeat; 
 }
 
 @media only screen and (max-width: 767px) {
+  html {
+    background-image: url(comingsoonmobile.jpg);
+  }
+  .content {width:70%}
+}
+@media only screen and (max-width: 1024px) {
   html {
     background-image: url(comingsoonmobile.jpg);
   }
