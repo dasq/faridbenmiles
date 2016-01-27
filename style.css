@@ -19,13 +19,13 @@ html {
   html {
     background-image: url(comingsoonmobile.jpg);
   }
-  .content {width:70%}
+  .content {width:100%}
 }
 @media only screen and (max-width: 1024px) {
   html {
     background-image: url(comingsoonmobile.jpg);
   }
-  .content {width:70%}
+  .content {width:100%}
 }
 
 body{text-align:center;
