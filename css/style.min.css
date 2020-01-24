@@ -18,7 +18,6 @@ h6 {
 
 @font-face {
     font-family: icomoon;
-	font-family: 'Metal Mania', cursive;
     src: url(../fonts/icomoon/icomoon.eot?1z9v6x);
     src: url(../fonts/icomoon/icomoon.eot?1z9v6x#iefix) format("embedded-opentype"), url(../fonts/icomoon/icomoon.ttf?1z9v6x) format("truetype"), url(../fonts/icomoon/icomoon.woff?1z9v6x) format("woff"), url(../fonts/icomoon/icomoon.svg?1z9v6x#icomoon) format("svg");
     font-weight: 400;
@@ -73,13 +72,13 @@ ul {
 a {
     -webkit-transition: .3s all;
     transition: .3s all;
-    color: #d91616
+    color: #FFA33E
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #FF1919;
+    color: #ff9725;
     text-decoration: none
 }
 
@@ -334,7 +333,7 @@ a:hover {
     padding-bottom: 0!important;
     font-size: 30px;
     text-transform: uppercase;
-    background: url(../img_epk/sf-logo.png) left top no-repeat;
+    background: url(../img_epk/fbm-logo.png) left top no-repeat;
     top: 40px;
     position: relative;
     width: 170px;
@@ -366,7 +365,7 @@ only screen and (min-resolution:2dppx) {
         position: relative;
         width: 117px;
         height: 40px;
-        background: url(../img_epk/sf-logo@2x.png) left 100% no-repeat;
+        background: url(../img_epk/fbm-logo@2x.png) left 100% no-repeat;
         background-size: cover
     }
 }
@@ -462,7 +461,7 @@ only screen and (min-resolution:2dppx) {
 }
 
 .probootstrap-navbar .navbar-nav.active>a {
-    color: #d91616!important
+    color: #FFA33E!important
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -536,7 +535,7 @@ only screen and (min-resolution:2dppx) {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav>li.active>a {
-    color: #d91616!important
+    color: #FFA33E!important
 }
 
 .container-fluid .navbar-brand {
@@ -571,7 +570,7 @@ only screen and (min-resolution:2dppx) {
 
 .btn.btn-primary,
 .probootstrap-hero.probootstrap-hero-colored {
-    background: #d91616
+    background: #FFA33E
 }
 
 .probootstrap-hero>.container {
@@ -586,7 +585,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:768px) {
     .probootstrap-navbar.scrolled .navbar-nav>li.active>a {
-        color: #d91616!important
+        color: #FFA33E!important
     }
     .probootstrap-hero .probootstrap-hero-text {
         padding-top: 50px;
@@ -671,7 +670,7 @@ only screen and (min-resolution:2dppx) {
 }
 
 .btn.btn-primary {
-    border: 1px solid #d91616;
+    border: 1px solid #FFA33E;
     color: #fff
 }
 
@@ -684,17 +683,17 @@ only screen and (min-resolution:2dppx) {
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
     outline: 0;
-    border: 1px solid #d91616
+    border: 1px solid #FFA33E
 }
 
 .btn.btn-ghost {
     background: 0 0;
-    border: 1px solid #d91616;
-    color: #d91616
+    border: 1px solid #FFA33E;
+    color: #FFA33E
 }
 
 .btn.btn-ghost:hover {
-    background: #d91616;
+    background: #FFA33E;
     color: #fff
 }
 
@@ -702,8 +701,8 @@ only screen and (min-resolution:2dppx) {
 .btn.btn-ghost:focus {
     outline: 0;
     background: 0 0;
-    color: #d91616;
-    border: 1px solid #d91616
+    color: #FFA33E;
+    border: 1px solid #FFA33E
 }
 
 section[data-section=menu] {
@@ -890,7 +889,7 @@ section[data-section=menu] {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-    color: #d91616
+    color: #FFA33E
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -916,7 +915,7 @@ section[data-section=menu] {
     display: block;
     width: 0;
     height: 2px;
-    background: #d91616;
+    background: #FFA33E;
     position: absolute;
     bottom: 0;
     z-index: 2;
@@ -941,7 +940,7 @@ section[data-section=menu] {
 
 .probootstrap-custom-link:hover:before {
     width: 100%;
-    background: #d91616
+    background: #FFA33E
 }
 
 .image-wrap {
@@ -1019,7 +1018,7 @@ section[data-section=menu] {
     top: 15px;
     right: 0;
     font-size: 20px;
-    color: #d91616
+    color: #FFA33E
 }
 
 @media screen and (max-width:768px) {
@@ -1127,7 +1126,7 @@ section[data-section=menu] {
 
 .probootstrap-cell .text p.price {
     font-size: 20px;
-    color: #d91616
+    color: #FFA33E
 }
 
 /*.probootstrap-cell .text:before {
@@ -1387,7 +1386,7 @@ section[data-section=menu] {
 .probootstrap-form .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #d91616
+    border-color: #FFA33E
 }
 
 .probootstrap-form .form-group .form-field {
@@ -1774,7 +1773,7 @@ section[data-section=menu] {
     display: block;
     text-transform: none;
     letter-spacing: normal;
-    color: #d91616;
+    color: #FFA33E;
     font-size: 14px
 }
 
@@ -1784,7 +1783,7 @@ section[data-section=menu] {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
     font-size: 50px;
-    color: #d91616;
+    color: #FFA33E;
     font-weight: 100;
     display: block;
     margin-bottom: 10px
@@ -1868,8 +1867,8 @@ section[data-section=menu] {
 }
 
 .probootstrap-heading .primary-heading {
-    font-family: "Metal Mania", serif;
-    color: #d91616;
+    font-family: "Pinyon Script", serif;
+    color: #FFA33E;
     margin: 0;
     padding: 0;
     font-size: 80px
@@ -2135,7 +2134,7 @@ section[data-section=menu] {
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] i {
     font-size: 24px;
-    background: #d91616!important;
+    background: #ffa33e!important;
     padding: 12px;
     -webkit-transition: .5s all;
     transition: .5s all
@@ -2143,7 +2142,7 @@ section[data-section=menu] {
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:focus i,
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i {
-    background: #d91616!important
+    background: #ffa33e!important
 }
 
 .owl-theme .owl-dots {
