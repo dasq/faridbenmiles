@@ -30,8 +30,8 @@ html {
 
 body {
     background: #E4E4E4;
-    color: #8b8e94;
-    line-height: 24px;
+    color: #2e1c0b;
+    line-height: 30px;
     font-size: 15px
 }
 
@@ -66,13 +66,13 @@ h6 {
 ol,
 p,
 ul {
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 
 a {
     -webkit-transition: .3s all;
     transition: .3s all;
-    color: #FFA33E
+    color: #8F151A
 }
 
 a:active,
@@ -91,6 +91,25 @@ a:hover {
     line-height: 64px;
     color: #fff
 }
+
+#img-round {
+	border-radius: 50%;
+	width: 50%;
+}
+
+.to-center{
+	text-align:center;
+}
+
+/* LANG SWITCH CSS */
+.lang { display: none; }
+.lang.active { display: block; }
+
+.lang-switch button.active {
+  background-color: #823131;   /* ta couleur terracotta par ex */
+  color: white;
+}
+
 
 @media screen and (max-width:768px) {
     .hero-text-heading,
@@ -374,7 +393,8 @@ only screen and (min-resolution:2dppx) {
     color: #fff;
     font-size: 15px;
     position: relative;
-    text-transform: uppercase
+    text-transform: uppercase;
+	font-weight: bold;
 }
 
 @media screen and (max-width:900px) {
@@ -461,7 +481,7 @@ only screen and (min-resolution:2dppx) {
 }
 
 .probootstrap-navbar .navbar-nav.active>a {
-    color: #FFA33E!important
+    color: #8F151A!important
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -523,19 +543,19 @@ only screen and (min-resolution:2dppx) {
 }
 
 .probootstrap-navbar.scrolled .dropdown>a:before {
-    color: rgba(0, 0, 0, .4)
+    color: rgba(0, 0, 0, 1)
 }
 
 .probootstrap-navbar.scrolled .navbar-nav>li>a {
-    color: rgba(0, 0, 0, .7)
+    color: rgba(0, 0, 0, 1)
 }
 
 .probootstrap-navbar.scrolled .navbar-nav>li>a:hover {
-    color: rgba(0, 0, 0, .7)!important
+    color: rgba(0, 0, 0, .5)!important
 }
 
 .probootstrap-navbar.scrolled .navbar-nav>li.active>a {
-    color: #FFA33E!important
+    color: #8F151A!important
 }
 
 .container-fluid .navbar-brand {
@@ -570,7 +590,7 @@ only screen and (min-resolution:2dppx) {
 
 .btn.btn-primary,
 .probootstrap-hero.probootstrap-hero-colored {
-    background: #FFA33E
+    background: #8F151A
 }
 
 .probootstrap-hero>.container {
@@ -585,7 +605,7 @@ only screen and (min-resolution:2dppx) {
 
 @media screen and (max-width:768px) {
     .probootstrap-navbar.scrolled .navbar-nav>li.active>a {
-        color: #FFA33E!important
+        color: #8F151A!important
     }
     .probootstrap-hero .probootstrap-hero-text {
         padding-top: 50px;
@@ -670,7 +690,7 @@ only screen and (min-resolution:2dppx) {
 }
 
 .btn.btn-primary {
-    border: 1px solid #FFA33E;
+    border: 1px solid #8F151A;
     color: #fff
 }
 
@@ -683,17 +703,17 @@ only screen and (min-resolution:2dppx) {
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
     outline: 0;
-    border: 1px solid #FFA33E
+    border: 1px solid #8F151A
 }
 
 .btn.btn-ghost {
     background: 0 0;
-    border: 1px solid #FFA33E;
-    color: #FFA33E
+    border: 1px solid #8F151A;
+    color: #8F151A
 }
 
 .btn.btn-ghost:hover {
-    background: #FFA33E;
+    background: #8F151A;
     color: #fff
 }
 
@@ -701,8 +721,8 @@ only screen and (min-resolution:2dppx) {
 .btn.btn-ghost:focus {
     outline: 0;
     background: 0 0;
-    color: #FFA33E;
-    border: 1px solid #FFA33E
+    color: #8F151A;
+    border: 1px solid #8F151A
 }
 
 section[data-section=menu] {
@@ -712,7 +732,7 @@ section[data-section=menu] {
 }
 
 .probootstrap-section {
-    padding: 7em 0
+    padding: 3em 0
 }
 
 .probootstrap-section.probootstrap-border-top {
@@ -889,7 +909,7 @@ section[data-section=menu] {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-    color: #FFA33E
+    color: #8F151A
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -915,7 +935,7 @@ section[data-section=menu] {
     display: block;
     width: 0;
     height: 2px;
-    background: #FFA33E;
+    background: #8F151A;
     position: absolute;
     bottom: 0;
     z-index: 2;
@@ -940,7 +960,7 @@ section[data-section=menu] {
 
 .probootstrap-custom-link:hover:before {
     width: 100%;
-    background: #FFA33E
+    background: #8F151A
 }
 
 .image-wrap {
@@ -1018,7 +1038,7 @@ section[data-section=menu] {
     top: 15px;
     right: 0;
     font-size: 20px;
-    color: #FFA33E
+    color: #8F151A
 }
 
 @media screen and (max-width:768px) {
@@ -1126,7 +1146,7 @@ section[data-section=menu] {
 
 .probootstrap-cell .text p.price {
     font-size: 20px;
-    color: #FFA33E
+    color: #8F151A
 }
 
 /*.probootstrap-cell .text:before {
@@ -1386,7 +1406,7 @@ section[data-section=menu] {
 .probootstrap-form .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #FFA33E
+    border-color: #8F151A
 }
 
 .probootstrap-form .form-group .form-field {
@@ -1773,7 +1793,7 @@ section[data-section=menu] {
     display: block;
     text-transform: none;
     letter-spacing: normal;
-    color: #FFA33E;
+    color: #8F151A;
     font-size: 14px
 }
 
@@ -1783,7 +1803,7 @@ section[data-section=menu] {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
     font-size: 50px;
-    color: #FFA33E;
+    color: #8F151A;
     font-weight: 100;
     display: block;
     margin-bottom: 10px
@@ -1868,7 +1888,7 @@ section[data-section=menu] {
 
 .probootstrap-heading .primary-heading {
     font-family: "Pinyon Script", serif;
-    color: #FFA33E;
+    color: #8F151A;
     margin: 0;
     padding: 0;
     font-size: 80px
@@ -1886,9 +1906,9 @@ section[data-section=menu] {
     margin: 0;
     padding: 0;
     letter-spacing: .05em;
-    font-size: 50px;
+    font-size: 35px;
     position: relative;
-    top: -50px;
+    top: -45px;
     font-weight: 700;
     line-height: 40px
 }
@@ -1900,7 +1920,7 @@ section[data-section=menu] {
 }
 
 .probootstrap-heading.dark .secondary-heading {
-    color: #000
+    color: #2e1c0b;
 }
 
 .probootstrap-heading .seperator {
@@ -1938,7 +1958,7 @@ section[data-section=menu] {
 .flexslider .probootstrap-slider-text .sub-heading {
     font-size: 20px;
     margin-top: -40px;
-    color: rgba(255, 255, 255, .9)
+    color: rgba(255, 255, 255, 1)
 }
 
 .flexslider .probootstrap-slider-text .sub-heading a {
@@ -2134,7 +2154,7 @@ section[data-section=menu] {
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] i {
     font-size: 24px;
-    background: #ffa33e!important;
+    background: #8F151A!important;
     padding: 12px;
     -webkit-transition: .5s all;
     transition: .5s all
@@ -2142,7 +2162,7 @@ section[data-section=menu] {
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:focus i,
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i {
-    background: #ffa33e!important
+    background: #8F151A!important
 }
 
 .owl-theme .owl-dots {
