@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="de">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,154 +16,7 @@
 	<meta property="og:url" content="https://faridbenmiles.com/connect-de">
 	<meta property="og:image" content="https://faridbenmiles.com/img/background/Farid-Ben-Miles-mobile.jpg">
 	<meta property="og:image:alt" content="Farid Ben Miles spielt Akustikgitarre">
-	<style>
-	  :root {
-		--bg: #121212;
-		--card: #1e1e1e;
-		--text: #f5f5f5;
-		--accent: #DBD7D2; 
-		--accent-hover: #e8c65a;
-	  }
-
-	  * { box-sizing: border-box; }
-
-		body {
-		position: relative;
-		margin: 0;
-		min-height: 100vh;
-		color: var(--text);
-		font-family: Lora, sans-serif;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 48px 20px 32px;
-		overflow-x: hidden;
-	  }
-
-	  body::before {
-		content: "";
-		position: fixed;
-		inset: 0;
-		background-image: url('img_epk/faridbenmiles-connected.jpg');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		z-index: -2;
-	  }
-
-	  body::after {
-		content: "";
-		position: fixed;
-		inset: 0;
-		background-color: rgba(92, 20, 23, 0.80); /* rouge transparent, ajuste l'alpha (0.55) */
-		z-index: -1;
-	  }
-
-	  .avatar {
-		width: 110px;
-		object-fit: cover;
-		margin-bottom: 18px;
-	  }
-
-	  h1 {
-		font-size: 2.5rem;
-		margin: 0 0 4px;
-		letter-spacing: 0.5px;
-		text-align: center;
-	  }
-
-	  p.tagline {
-		color: #b8b8b8;
-		font-size: 1.2rem;
-		margin: 0 0 32px;
-		text-align: center;
-		font-style: italic;
-	  }
-
-	  .links {
-		width: 100%;
-		max-width: 380px;
-		display: flex;
-		flex-direction: column;
-		gap: 14px;
-	  }
-
-	  .link-btn {
-		display: flex;
-		align-items: center;
-		//justify-content: center;
-		gap: 10px;
-		background: var(--card);
-		border: 1px solid #333;
-		color: var(--text);
-		text-decoration: none;
-		padding: 15px 20px;
-		border-radius: 12px;
-		font-size: 0.9rem;
-		transition: all 0.2s ease;
-	  }
-
-	  .link-btn:hover, .link-btn:active {
-		border-color: var(--accent);
-		background: #262626;
-		transform: translateY(-2px);
-	  }
-
-	  .link-btn.donate {
-		border-color: var(--accent);
-		color: var(--accent);
-		font-weight: bold;
-	  }
-
-	  .link-btn.donate:hover {
-		background: var(--accent);
-		color: #121212;
-	  }
-	  
-	  .artist-link {
-		text-decoration: none;
-		color: inherit;
-		display: inline-block;
-	  }
-
-	  .artist-link:hover h1,
-	  .artist-link:active h1 {
-		color: var(--accent); /* petit effet doré au survol/tap, optionnel */
-	  }
-
-	  .icon {
-		font-size: 1.2rem;
-	  }
-
-	  footer {
-		margin-top: 40px;
-		font-size: 0.75rem;
-		color: #DBD7D2;
-		text-align: center;
-	  }
-	
-	  footer a { color: #888; }
-	  .lang-switch {
-	  position: absolute;
-	  top: 16px;
-	  right: 16px;
-	  z-index: 10;
-	}
-
-	.lang-switch a {
-	  font-size: 28px;
-	  text-decoration: none;
-	  display: inline-block;
-	  line-height: 1;
-	  opacity: 0.9;
-	  transition: opacity 0.2s, transform 0.2s;
-	}
-
-	.lang-switch a:hover {
-	  opacity: 1;
-	  transform: scale(1.1);
-	}
-	</style>
+	<link rel="stylesheet" href="css/style-connect.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -179,20 +32,34 @@
   <p class="tagline">Akustikgitarre - Musikalischer Reisender - Eigene Stücke & Coverversionen</p>
 
   <div class="links">
-    <a class="link-btn donate" href="https://paypal.me/faridbenmiles" target="_blank" rel="noopener">
-      <i class="fa-brands fa-paypal icon"></i> Trinkgeld via PayPal
-    </a>
-	<a class="link-btn" href="https://busk.co/120140/tip" target="_blank" rel="noopener">
-      <i class="fa-solid fa-hand-holding-heart icon"></i> Trinkgeld via Karte - Apple Pay - Google Pay
-    </a>
+	<div class="link-btn-wrapper">
+	  <button class="link-btn donate" onclick="toggleMenu('tip-menu')">
+		<i class="fa-solid fa-hand-holding-heart icon"></i> Trinkgeld
+	  </button>
+	  <div class="choice-menu" id="tip-menu">
+		<a href="https://paypal.me/faridbenmiles" target="_blank" rel="noopener">
+		  <i class="fa-brands fa-paypal icon"></i> PayPal
+		</a>
+		<a href="https://busk.co/120140/tip" target="_blank" rel="noopener">
+		  <i class="fa-solid fa-credit-card icon"></i> Karte / Apple Pay / Google Pay
+		</a>
+	  </div>
+	</div>
+	<div class="link-btn-wrapper">
+	  <button class="link-btn" onclick="toggleMenu('booking-menu')">
+		<i class="fa-solid fa-calendar-check icon"></i> Für Ihre Veranstaltung buchen
+	  </button>
+	  <div class="choice-menu" id="booking-menu">
+		<a href="mailto:faridbenmiles@gmail.com?subject=Buchungsanfrage%20-%20Private%20Veranstaltung&body=Hallo%20Farid%2C%0A%0Aich%20m%C3%B6chte%20Sie%20gerne%20f%C3%BCr%20eine%20private%20Veranstaltung%20buchen%20%28Geburtstag%2C%20Feier...%29.%0A%0ADatum%3A%20%0AOrt%3A%20%0AArt%20der%20Veranstaltung%3A%20%0A%0AVielen%20Dank!" rel="noopener">
+		  <i class="fa-solid fa-envelope icon"></i> Email
+		</a>
+		<a href="https://wa.me/4915225173733?text=Hallo%20Farid%2C%20ich%20w%C3%BCrde%20gerne%20mit%20Ihnen%20%C3%BCber%20eine%20Buchung%20f%C3%BCr%20eine%20Veranstaltung%20sprechen!" target="_blank" rel="noopener">
+		  <i class="fa-brands fa-whatsapp icon"></i> WhatsApp
+		</a>
+	  </div>
+	</div>
     <a class="link-btn" href="https://faridbenmiles.bandcamp.com/album/going-overseas" target="_blank" rel="noopener">
       <i class="fa-solid fa-compact-disc icon"></i> Mein Album hören
-    </a>
-	<a class="link-btn" href="mailto:faridbenmiles@gmail.com" rel="noopener">
-      <i class="fa-solid fa-envelope icon"></i> Für Ihre Veranstaltung buchen 
-    </a>
-	<a class="link-btn" href="https://wa.me/4915225173733?text=Bonjour%2C%20je%20vous%20ai%20vu%20jouer%20dans%20la%20rue%20!" target="_blank" rel="noopener">
-      <i class="fa-brands fa-whatsapp icon"></i> Kontakt aufnehmen
     </a>
     <a class="link-btn" href="https://instagram.com/faridbenmiles" target="_blank" rel="noopener">
       <i class="fa-brands fa-instagram icon"></i> Auf dem Laufenden bleiben
@@ -208,6 +75,6 @@
   <footer>
     Merci d'être passé(e) 🎶
   </footer>
-
-</body>
+	<script src="js/script-connect.js"></script>
+	</body>
 </html>
