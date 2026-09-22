@@ -109,7 +109,10 @@ a:hover {
   background-color: #823131;   /* ta couleur terracotta par ex */
   color: white;
 }
-
+/* ADD Color New live Video Link */
+#newvideolink {
+  color: #8F151A;
+}
 
 @media screen and (max-width:768px) {
     .hero-text-heading,
