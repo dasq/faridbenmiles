@@ -954,7 +954,7 @@ section[data-section=menu] {
 }
 
 .probootstrap-copyright a:hover {
-    color: #fff
+    COLOR: #fff
 }
 
 .probootstrap-copyright p {
@@ -965,6 +965,10 @@ section[data-section=menu] {
     margin-bottom: 0
 }
 
+.copyright-text {
+	color: #ff9725;
+	text-decoration: none;
+}
 @media screen and (max-width:768px) {
     .probootstrap-copyright p.copyright-text {
         margin-bottom: 20px
