@@ -1,0 +1,356 @@
+/*!
+ * Font Awesome Free 6.0.0-beta3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2021 Fonticons, Inc.
+ */
+.fa {
+    font-family: var(--fa-style-family,"Font Awesome 6 Free");
+    font-weight: var(--fa-style,900)
+}
+
+.fa,.fa-brands,.fa-duotone,.fa-light,.fa-regular,.fa-solid,.fa-thin,.fab,.fad,.fal,.far,.fas,.fat {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto
+}
+
+
+.fa-angle-left:before {
+    content: "\f104"
+}
+
+.fa-angle-right:before {
+    content: "\f105"
+}
+
+
+.fa-chalkboard-teacher:before,.fa-chalkboard-user:before {
+    content: "\f51c"
+}
+
+
+
+.fa-compact-disc:before {
+    content: "\f51f"
+}
+
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
+.fa-globe:before {
+    content: "\f0ac"
+}
+
+.fa-comment-dots:before {
+  content: "\f4ad";
+}
+
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+
+.fa-graduation-cap:before,.fa-mortar-board:before {
+    content: "\f19d"
+}
+
+
+
+.fa-guitar:before {
+    content: "\f7a6"
+}
+
+
+
+.fa-heart:before {
+    content: "\f004"
+}
+
+
+
+.fa-location-dot:before,.fa-map-marker-alt:before {
+    content: "\f3c5"
+}
+
+
+
+.fa-microphone-alt:before,.fa-microphone-lines:before {
+    content: "\f3c9"
+}
+
+
+.fa-music:before {
+    content: "\f001"
+}
+
+
+.fa-phone-alt:before,.fa-phone-flip:before {
+    content: "\f879"
+}
+
+
+.fa-video-camera:before,.fa-video:before {
+    content: "\f03d"
+}
+
+
+:host,:root {
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"
+}
+
+
+
+.fa-brands,.fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400
+}
+
+
+
+
+
+
+
+.fa-tiktok:before {
+    content: "\e07b"
+}
+
+
+
+
+
+:host,:root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free"
+}
+
+
+:host,:root {
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"
+}
+
+
+.fa-solid,.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900
+}
+
+.fa-play:before {
+    content: "\f04b"
+}
+
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+.fa-bandcamp:before {
+    content: "\f2d5"
+}
+
+.fa-youtube:before {
+    content: "\f167"
+}
+
+.fa-calendar-alt:before,.fa-calendar-days:before {
+    content: "\f073"
+}
+
+.fa-angle-left:before {
+    content: "\f104"
+}
+
+.fa-angle-right:before {
+    content: "\f105"
+}
+.fa-angle-double-up:before,.fa-angles-up:before {
+    content: "\f102"
+}
+.fa-caret-down:before {
+    content: "\f0d7"
+}
+
+.fa-times::before {
+    content: "\f00d";
+}
+
+.fa-caret-right::before {
+    content: "\f0da";
+}
+
+.fa-book::before {
+    content: "\f02d";
+}
+
+.fa-bookmark::before {
+    content: "\f02e";
+}
+
+.fa-scroll::before {
+    content: "\f70e";
+}
+
+.fa-chevron-down::before {
+    content: "\f078";
+}
+
+/* For specific icon styling if needed */
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900; /* Ensures solid icons are rendered */
+}
+
+.fas.fa-laptop::before {
+    content: "\f109"; /* Laptop Icon */
+}
+
+.fas.fa-user-graduate::before {
+    content: "\f501"; /* Graduate Icon */
+}
+
+.fas.fa-chart-line::before {
+    content: "\f201"; /* Chart Line Icon */
+}
+
+.fas.fa-users::before {
+    content: "\f0c0"; /* Users Icon */
+}
+
+.fas.fa-route::before {
+    content: "\f5b0"; /* Route Icon */
+}
+
+.fas.fa-theater-masks::before {
+    content: "\f630"; /* Theater Masks Icon */
+}
+
+.fas.fa-clock::before {
+    content: "\f017"; /* Clock Icon */
+}
+
+.fas.fa-clipboard-list::before {
+    content: "\f46d"; /* fa-clipboard-list Icon */
+}
+
+.fa-comments::before {
+    content: "\f086"; /* Comments Icon */
+}
+
+.fa-handshake::before {
+    content: "\f2b5"; /* Handshake Icon */
+}
+
+.fa-hand-rock::before {
+    content: "\f255"; /* Hand Rock Icon */
+}
+
+.fa-brain::before {
+    content: "\f5dc"; /* Brain Icon */
+}
+
+.fa-eye::before {
+    content: "\f06e"; /* Eye Icon */
+}
+
+.fa-bullhorn::before {
+    content: "\f0a1"; /* Bullhorn Icon */
+}
+
+.fa-hand-point-up::before {
+    content: "\f0a6"; /* Hand Pointing Up Icon */
+}
+
+.fa-random::before {
+    content: "\f074"; /* Random (Improvisation) Icon */
+}
+
+.fa-bolt::before {
+    content: "\f0e7"; /* Lightning Bolt (Electric Guitar) Icon */
+}
+
+.fa-balance-scale::before {
+    content: "\f24e"; /* Balance Scale Icon (for Competitive & Fair Prices) */
+}
+
+/* Language Icon (using comments as alternative) */
+.fa-comments:before {
+    content: "\f086"
+}
+
+/* Screen Share Icon */
+.fa-share-square:before {
+    content: "\f14d"
+}
+
+/* PDF File Icon */
+.fa-file-pdf:before {
+    content: "\f1c1"
+}
+
+/* Headphones Icon */
+.fa-headphones:before {
+    content: "\f025"
+}
+
+/* Cloud Upload Icon */
+.fa-cloud-upload-alt:before {
+    content: "\f382"
+}
+
+/* Cloud Download Icon */
+.fa-cloud-download-alt:before {
+    content: "\f381"
+}
+
+/* Record Vinyl Icon */
+.fa-record-vinyl:before {
+    content: "\f8d9"
+}
+
+/* Globe Europe Icon */
+.fa-globe-europe:before {
+    content: "\f7a2"
+}
+
+/* Laptop Icon (already in your CSS but for completeness) */
+.fa-laptop:before {
+    content: "\f109"
+}
+
+/* Language Icon */
+.fa-language:before {
+    content: "\f1ab"
+}
+
+/* Cloud Icon (regular) */
+.fa-cloud:before {
+    content: "\f0c2"
+}
+
+/* Cloud Upload Icon */
+.fa-cloud-upload-alt:before, .fa-cloud-arrow-up:before {
+    content: "\f0ee"
+}
+
+/* Cloud Download Icon */
+.fa-cloud-download-alt:before, .fa-cloud-arrow-down:before {
+    content: "\f0ed"
+}
+
+.fa-tree:before {
+    content: "\f1bb"; 
+}
+
+/* Running Person Icon (for commute avoidance) */
+.fa-running:before {
+  content: "\f70c";
+}

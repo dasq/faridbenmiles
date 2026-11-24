@@ -24,6 +24,19 @@ h6 {
     font-style: normal
 }
 
+/* --- Font Awesome --- */
+@font-face { 
+	font-family: 'Font Awesome 6 Free'; font-style: normal; 
+	font-weight: 900; 
+	src: url('../fonts/font-awesome/fa-solid-cleaned.woff2') format('woff2'); 
+	} 
+@font-face { 
+	font-family: 'Font Awesome 6 Free'; 
+	font-style: normal; 
+	font-weight: 900; 
+	src: url('../fonts/font-awesome/fa-brands-cleaned.woff2') format('woff2'); 
+	}
+
 html {
     overflow-x: hidden
 }
@@ -117,6 +130,110 @@ a:hover {
 #newvideolink {
   color: #8F151A;
 }
+
+/* 📌 TOC container - Hidden by default */
+#toc-container {
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    width: 135px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* 📌 Show TOC after scrolling past banner */
+#toc-container.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 📌 TOC box */
+#floating-toc {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+	margin-top: 48px;
+}
+
+/* 📌 Title */
+#floating-toc h4 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+/* 📌 TOC Links */
+#floating-toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+#floating-toc ul li {
+    margin-bottom: 8px;
+}
+
+#floating-toc a {
+    text-decoration: none;
+    color: #2A211E;
+    transition: color 0.2s;
+}
+
+#floating-toc a:hover {
+    color: #823131;
+}
+
+/* 📌 Highlight active section */
+#floating-toc a.active {
+    font-weight: bold;
+    color: #823131;
+}
+
+
+  
+/* 📌 TOC Toggle Button */
+#toc-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+	opacity: 0.5;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#toc-toggle:focus {
+    background: black;
+    opacity: 0.5;
+    outline: none; /* Removes the default focus outline */
+}
+
+#toc-toggle:hover, #toc-toggle.active  {
+    background: #5C1417;
+    opacity: 1;
+}
+
+/* 📌 Hide TOC when collapsed */
+#floating-toc.hidden {
+    display: none;
+}
+
+.toc-icon {
+	color: #5C1417;
+	visibility: hidden;
+}
+
+#floating-toc a.active .toc-icon {
+	visibility: visible;
+}
+
+
 
 @media screen and (max-width:768px) {
     .hero-text-heading,
