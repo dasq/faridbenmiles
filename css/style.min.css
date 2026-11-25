@@ -48,7 +48,7 @@ body {
     font-size: 15px
 }
 
-/* Fix debordement sur mobile ? */
+/* Fix debordement sur mobile */
 html, body { overflow-x: hidden; max-width: 100%; }
 #toc-container { right: max(16px, env(safe-area-inset-right)); max-width: calc(100vw - 32px); }
 
@@ -138,8 +138,8 @@ a:hover {
 /* 📌 TOC container - Hidden by default */
 #toc-container {
     position: fixed;
-    top: 110px;
-    right: 20px;
+    top: 60px;
+    right: 10px;
     width: 135px;
     z-index: 1;
     opacity: 0;
