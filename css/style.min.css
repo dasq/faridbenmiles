@@ -48,6 +48,10 @@ body {
     font-size: 15px
 }
 
+/* Fix debordement sur mobile ? */
+html, body { overflow-x: hidden; max-width: 100%; }
+#toc-container { right: max(16px, env(safe-area-inset-right)); max-width: calc(100vw - 32px); }
+
 h1,
 h2,
 h3,
