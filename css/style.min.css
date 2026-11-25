@@ -739,6 +739,10 @@ only screen and (min-resolution:2dppx) {
         padding-top: 50px;
         padding-bottom: 50px
     }
+	
+	.flexslider, .flexslider .slides > li, .slider-height {
+	  height: 500px !important;
+	}
 }
 
 .probootstrap-hero.probootstrap-sm-hero .probootstrap-hero-text {
